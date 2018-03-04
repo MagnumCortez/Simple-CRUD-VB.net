@@ -1,0 +1,11 @@
+D:\Projetcs\VB\Estoque\Estoque\bin\Debug\Estoque.exe.config
+D:\Projetcs\VB\Estoque\Estoque\bin\Debug\Estoque.exe
+D:\Projetcs\VB\Estoque\Estoque\bin\Debug\Estoque.pdb
+D:\Projetcs\VB\Estoque\Estoque\bin\Debug\Estoque.xml
+D:\Projetcs\VB\Estoque\Estoque\obj\Debug\Estoque.vbprojResolveAssemblyReference.cache
+D:\Projetcs\VB\Estoque\Estoque\obj\Debug\WindowsApplication1.frmMain.resources
+D:\Projetcs\VB\Estoque\Estoque\obj\Debug\WindowsApplication1.Resources.resources
+D:\Projetcs\VB\Estoque\Estoque\obj\Debug\Estoque.vbproj.GenerateResource.Cache
+D:\Projetcs\VB\Estoque\Estoque\obj\Debug\Estoque.exe
+D:\Projetcs\VB\Estoque\Estoque\obj\Debug\Estoque.xml
+D:\Projetcs\VB\Estoque\Estoque\obj\Debug\Estoque.pdb
