@@ -144,4 +144,16 @@
         End If
         txtPreco.Text = FormatCurrency(txtPreco.Text, 2, TriState.True, TriState.True, TriState.True).Replace("R$", "").Trim
     End Sub
+
+    Private Sub btnDelete_Click(sender As Object, e As EventArgs) Handles btnDelete.Click
+        If (gridProdutos.RowCount > 0) Then
+            For index = 0 To gridProdutos.RowCount - 1
+                If (gridProdutos.Rows(index).Cells(0).Value) Then
+                    Dim id As String = gridProdutos.Rows(index).Cells(1).Value
+                    MsgBox("id selecionado: " & id, MsgBoxStyle.Information)
+                End If
+            Next
+        End If
+
+    End Sub
 End Class

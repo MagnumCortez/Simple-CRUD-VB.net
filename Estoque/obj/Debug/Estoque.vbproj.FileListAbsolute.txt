@@ -9,3 +9,5 @@ D:\Projetcs\VB\Estoque\Estoque\obj\Debug\Estoque.vbproj.GenerateResource.Cache
 D:\Projetcs\VB\Estoque\Estoque\obj\Debug\Estoque.exe
 D:\Projetcs\VB\Estoque\Estoque\obj\Debug\Estoque.xml
 D:\Projetcs\VB\Estoque\Estoque\obj\Debug\Estoque.pdb
+D:\Projetcs\VB\Estoque\Estoque\obj\Debug\WindowsApplication1.frmPrincipal.resources
+D:\Projetcs\VB\Estoque\Estoque\obj\Debug\WindowsApplication1.frmCategoria.resources

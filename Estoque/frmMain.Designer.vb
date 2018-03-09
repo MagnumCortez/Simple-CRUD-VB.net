@@ -32,7 +32,8 @@ Partial Class frmMain
         Me.txtProduto = New System.Windows.Forms.TextBox()
         Me.btnSalvar = New System.Windows.Forms.Button()
         Me.gridProdutos = New System.Windows.Forms.DataGridView()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ckbDelete = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.btnDelete = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         CType(Me.gridProdutos, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -130,28 +131,35 @@ Partial Class frmMain
         Me.gridProdutos.AllowUserToResizeRows = False
         Me.gridProdutos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised
         Me.gridProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.gridProdutos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.ckbDelete})
         Me.gridProdutos.Location = New System.Drawing.Point(12, 103)
         Me.gridProdutos.MultiSelect = False
         Me.gridProdutos.Name = "gridProdutos"
-        Me.gridProdutos.ReadOnly = True
         Me.gridProdutos.RowHeadersVisible = False
         Me.gridProdutos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.gridProdutos.Size = New System.Drawing.Size(553, 150)
         Me.gridProdutos.TabIndex = 3
         '
-        'TextBox1
+        'ckbDelete
         '
-        Me.TextBox1.Location = New System.Drawing.Point(300, 344)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 4
+        Me.ckbDelete.HeaderText = ""
+        Me.ckbDelete.Name = "ckbDelete"
+        '
+        'btnDelete
+        '
+        Me.btnDelete.Location = New System.Drawing.Point(261, 259)
+        Me.btnDelete.Name = "btnDelete"
+        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelete.TabIndex = 4
+        Me.btnDelete.Text = "Excluir"
+        Me.btnDelete.UseVisualStyleBackColor = True
         '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(577, 404)
-        Me.Controls.Add(Me.TextBox1)
+        Me.ClientSize = New System.Drawing.Size(577, 300)
+        Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.gridProdutos)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "frmMain"
@@ -160,7 +168,6 @@ Partial Class frmMain
         Me.GroupBox1.PerformLayout()
         CType(Me.gridProdutos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -173,6 +180,7 @@ Partial Class frmMain
     Friend WithEvents Label1 As Label
     Friend WithEvents txtPreco As TextBox
     Friend WithEvents gridProdutos As DataGridView
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents btnLimpar As Button
+    Friend WithEvents ckbDelete As DataGridViewCheckBoxColumn
+    Friend WithEvents btnDelete As Button
 End Class
